@@ -7,12 +7,25 @@
 
 <header >
 	<div id="head">
-	<ul id = "header"> 
+	<ul id = "header">
+	      <a href="" id="icon"> <img src="gitimages/icon.png" width="48" height="48"> </a> 
+         
+
 			<a href="https://about.instagram.com/about-us" > <ul class="white"> Why GitHub? </ul> </a>
-			<a href="https://help.instagram.com/"> <ul class="white"> Enterprise </ul> </a> 
+			<a href="https://github.com/enterprise"> <ul class="white"> Enterprise </ul> </a> 
 			<a href="https://instagram-press.com/"> <ul class="white"> Explore </ul> </a> 
-			<a href="https://www.instagram.com/developer/"><ul class="white"> Marketplace </ul> </a> 
+			<a href="https://github.com/marketplace"><ul class="white"> Marketplace </ul> </a> 
 			<a href="https://www.instagram.com/about/jobs/"><ul class="white"> Pricing </ul> </a>
+			
+			<div id="right_top">
+			<form action="/search/" target="_blank" class="form-search">
+		  <input type="hidden" name="searchid" value="808327">
+		  <input type="search" name="text" required placeholder=" Search GitHub         /">
+			</form>
+
+ 			<a href="https://github.com/login?return_to=%2Fjoin%3Fsource%3Dheader-home"> <button type="button"class="top" id="signin"> Sign in</button></a>
+			<a href="https://github.com/join?source=header-home" id="up"> <button type="button" class="top" id="signup">Sign up</button></a>
+   		</div>
    </div>
 </header>
 
@@ -29,17 +42,17 @@
  		<div id="right1">
  			<form id="input">
  				
- 				<label name="username">Username</label> <br>
- 				<input type="text" name="usename"> <br>
- 				<label name="email">Email</label> <br>
- 				<input type="text" name="email"> <br>
-            <label name="password">Password</label> <br>
- 				<input type="text" name="pasword">
+ 				<label name="username" class="labels">Username</label> <br>
+ 				<input type="text" name="usename" class="inputs"> <br>
+ 				<label name="email" class="labels">Email</label> <br>
+ 				<input type="text" name="email" class="inputs"> <br>
+            <label name="password" class="labels">Password</label> <br>
+ 				<input type="text" name="pasword" class="inputs">
  			</form>
- 		</div id = "right_foot">	
- 		<div>
+ 		</div >	
+ 		<div id = "right_foot">
  			<p class="black">Make sure it's at least 15 characters OR at least 8 characters including a<br> number and a lowercase letter. <a href="https://help.github.com/en/github/authenticating-to-github/creating-a-strong-password">Learn more</a>.</p>
- 			<a href="https://github.com/join"> <button>Sign up for GitHub</button> </a>
+ 			<a href="https://github.com/join" > <button id="upgit">Sign up for GitHub</button> </a>
 
          <p class="black" id="right_footer""> By clicking “Sign up for GitHub”, you agree to our <a href="https://help.github.com/en/github/site-policy/github-terms-of-service"> Terms of Service</a> and <br> <a href="https://help.github.com/en/github/site-policy/github-privacy-statement"> Privacy Statement</a>. We’ll occasionally send you account related emails.</p>  
  			
