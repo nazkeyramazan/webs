@@ -1,0 +1,62 @@
+
+header{
+
+
+}
+body{
+	background-image: url(gitimages/git1svg.svg);
+	background-size: cover;
+	background-color: gray;
+	opacity: 0.5;
+	color:white;
+}
+a{
+  text-decoration: none;
+}
+#head{
+	display: inline-block;
+	background-color:hsla(120, 0%, 15% , 1);
+	opacity: 1;
+	margin: 0;
+	padding-left: : 0;
+}
+
+.white{
+	color: white;
+
+}
+#header{
+	display: flex;
+	width: 100%;	
+}
+#left{
+	display: inline-block;
+   background-color: red;
+
+}
+
+#right{
+   background-color: white;
+	display: inline-block;
+	height:450px;
+	width: 300px;
+}
+
+#input{
+	color: black;
+	border: 1px solid black;
+}
+#intro{
+	font-size: 50px;
+}
+
+#intro1{
+	font-size: 25px;
+}
+.black{
+	color: black;
+	font-size: 11px;
+}
+#right_footer{
+	font-size: 10px;
+}

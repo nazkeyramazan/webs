@@ -1,0 +1,78 @@
+body{
+	background-color: pink;
+	background-image: url(twitter_images/twit.png);
+	background-size: 100% 100%;
+}
+h2{
+	color: white;
+	margin-left: 120px;
+}
+#left {
+	display: inline-block;
+	background-color: ;
+   height: 200px;
+   width: 42%;
+   /*border: 1px solid black;*/
+   padding: 180px 47px;
+   }
+
+#right{
+	display: inline-block;
+	background-color: white ;
+	height:576px;
+   width: 675px;
+   /*border: 1px solid black;*/
+   float: right;
+
+}
+#logo{
+	height: 150px;
+	width: 250px;
+	 margin-left: 175px;
+}
+.black{
+	color: black;
+	text-align: justify;
+	 margin-left: 120px;
+
+}
+#first{
+	font-size: 32px;
+}
+#second{
+	font-size: 18px;
+}
+
+.button{
+ width: 365px;
+ height: 40px;
+ border-radius: 20px;
+ border: solid deepskyblue;
+ margin-left: 120px;
+}
+#button1{
+	background-color: deepskyblue;
+    border: solid deepskyblue;
+   margin-bottom: 17px;
+}
+#button2{
+	
+}
+
+.footer{
+	display: block;
+	background-color: white;
+	margin-top: 15px;
+	padding:  15px 0px;
+	
+}
+
+#foot{
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 13px; 
+	
+}
+/*.space{
+	margin-right: -20px;
+}*/
