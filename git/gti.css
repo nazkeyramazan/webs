@@ -26,11 +26,11 @@ a{
 	width: 1325px;
 }
 #right_top{
-	background-color:hsla(120, 0%, 15% , 1) ;
+	/*background-color:hsla(120, 0%, 15% , 1) ;*/
+	background-color: rgba(15,15,15,1);
 	display: inline-block;
- background-color:;
- width: 722px;
- height:45px;
+   width: 722px;
+   height:45px;
 }
 
 .form-search {
@@ -57,13 +57,39 @@ a{
 }
 #header{
 	display: flex;
-		
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color:;
+}
+.dropdown-child {
+    display: none;
+    background-color: white;
+    min-width: 200px;
+    height: 245px;
+    border-radius: 5px;
+    border: 3px solid white;
+
+}
+.dropdown-child a {
+    color: black;
+    padding: 1px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+
 #left{
 	display: inline-block;
    background-color: ;
-   margin-top: 130px;
+   margin-top: 1px;
    margin-left: 180px;
+
 
 }
 
@@ -83,6 +109,7 @@ a{
 	margin-left:  9px;
 	width: 90px; 
 	height: 30px;
+
 }
 #signup{
 	margin-top: 8px;
