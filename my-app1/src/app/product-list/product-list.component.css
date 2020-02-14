@@ -1,0 +1,27 @@
+
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/
+img {
+width:150px;
+}
+
+p{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+}
+a{
+    color: white;
+}
+button{
+    display: block;
+    margin-top: 10px;
+}
+#product_name{
+    color:black;
+}

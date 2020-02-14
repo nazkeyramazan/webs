@@ -1,0 +1,44 @@
+<h2>Products</h2>
+
+<div *ngFor="let product of products" > 
+<h3  > 
+  <a [title]= "product.name + ' details'" href="{{product.link}}" id="product_name" target="_blank"> 
+{{product.name}}
+  </a>
+</h3>
+
+<img src="{{product.source}}"   >
+
+<p *ngIf="product.price">
+  Price: {{product.price}}
+</p>
+
+<p *ngIf="product.description">
+  Description: {{product.description}}
+</p>
+<p *ngIf="product.rating">
+
+  Rating: {{product.rating}}
+</p>
+   <!--<p>(click)="share(product)"</p>-->  
+<button *ngIf="product.link" >
+  <a href="https://api.whatsapp.com/send?phone=77055196961&text={{product.name}}+:+{{product.link}}" target="_blank">Share via Whats App</a>-
+</button>
+
+<!--<button *ngIf="product.link" >
+  <a href="tg://resolve?domain=@asper1n&text={{product.name}}+:+{{product.link}}">Share via Telegram</a>
+  </button>
+-->
+
+<app-product-alerts 
+[product]="product"
+(notify) = "onNotify(product)"
+>
+</app-product-alerts>
+</div>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->
